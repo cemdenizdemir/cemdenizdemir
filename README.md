@@ -1,61 +1,114 @@
-# Cem Deniz Demir
-### Full-Stack Software Developer
+<h1 align="center">Cem Deniz Demir</h1>
+
+<p align="center">
+  <b>Full-Stack Software Engineer</b><br>
+  Istanbul, Turkey · Open to relocation
+</p>
+
+<p align="center">
+  <a href="https://cemdenizdemir.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=firefox&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/cemdenizdemir"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:cemdenizdemir@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
 ---
 
-## 🔗 Connect with Me
-[<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white" />](https://cemdenizdemir.com)
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://linkedin.com/in/cemdenizdemir)
-[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/cemdenizdemir)
-[<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:cemdenizdemir@gmail.com)
+I build production systems across Node.js/TypeScript backends and Next.js frontends, owning the full delivery lifecycle from architecture through CI/CD.
+
+My focus is **identity and authentication** — and more broadly, treating security as a design constraint rather than a late-stage addition. In practice that means OWASP-aligned request handling, argon2 hashing, schema validation at every input boundary, RBAC, and layered rate limiting as defaults, not additions.
+
+Currently a Software Engineer at N-Creative, where I own order management, CDN delivery, and internal tooling end to end.
+
+<br>
+
+## What I'm working on
+
+- **Identity & auth systems** — multi-tenant auth services, session handling, access-control boundaries
+- **Security-first API design** — hardening the full request lifecycle, not just the login endpoint
+- **Distributed systems & Go** — moving from framework-level backend work toward runtime and infrastructure depth
+
+<br>
+
+## Selected work
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[NestJS Microservices API](https://github.com/cemdenizdemir)** | Two-service system (auth + resource) over NestJS TCP transport, fronted by an HTTP API gateway. Containerized and deployed to AWS ECS through GitHub Actions. | `NestJS` `TypeScript` `Docker` `AWS ECS` |
+| **[Auth & Profile Boilerplate](https://github.com/cemdenizdemir)** | Production-ready auth template with a chained middleware stack — rate limiting, security headers, auth validation, request logging. OAuth-to-credentials account linking and nonce-based CSP. | `Next.js` `Prisma` `NextAuth` `PostgreSQL` |
+
+<br>
+
+## Stack
+
+**Core**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+**Security & Auth**
+
+![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=flat-square&logo=auth0&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![Auth.js](https://img.shields.io/badge/Auth.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
+
+<details>
+<summary><b>Full stack breakdown</b></summary>
+
+<br>
+
+**Languages** — TypeScript, JavaScript (ES6+), SQL
+
+**Backend** — Node.js, NestJS, Express.js, REST APIs, GraphQL, tRPC
+
+**Frontend** — React, Next.js, Tailwind CSS, Zustand, TanStack Query
+
+**Databases & ORMs** — PostgreSQL, MySQL, MongoDB, Redis, Prisma ORM
+
+**Architecture** — Microservices, API gateway patterns, caching strategies, database replication and partitioning
+
+**Security & Authentication** — OAuth2, JWT, OpenID Connect, NextAuth/Auth.js, Argon2, RBAC, Zod validation, rate limiting, nonce-based CSP, OWASP Top 10, OWASP API Top 10, threat modeling
+
+**Cloud & Infrastructure** — AWS (EC2, S3, ECS, Lambda, IAM, VPC, RDS, CloudFront), Cloudflare (Workers, R2, CDN), Docker, Kubernetes, Vercel, Firebase
+
+**DevOps & Testing** — GitHub Actions CI/CD, Jest, Playwright, Git, Postman
+
+<br>
+
+*Academic background in C, C++, C#, and Java — Computer Engineering, Halic University.*
+
+</details>
+
+<br>
+
+## Currently learning
+
+**Go** — concurrency primitives, standard library `net/http`, idiomatic error handling. Working through *Let's Go* / *Let's Go Further*.
+
+**Distributed systems & architecture** — scalability patterns, reliability engineering, event-driven and microservices architecture styles.
+
+**Application & AI security** — OWASP Top 10, OWASP API Security Top 10, and OWASP Top 10 for LLM Applications, including threat modeling for agentic systems.
+
+<br>
+
+## Stats
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=cemdenizdemir&show_icons=true&hide_border=true&theme=github_dark&hide_title=true" alt="GitHub stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cemdenizdemir&layout=compact&hide_border=true&theme=github_dark&langs_count=6" alt="Top languages" />
+</p>
+
+<br>
 
 ---
 
-## 🛠️ My Skills
-
-### **Languages**
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
-### **Frontend Development**
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Shadcn/UI](https://img.shields.io/badge/Shadcn/UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black)
-![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white)
-![TanStack Query](https://img.shields.io/badge/-Tanstack%20Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
-
-### **Backend & Database**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![tRPC](https://img.shields.io/badge/tRPC-%232596be.svg?style=for-the-badge&logo=trpc&logoColor=white)
-![Lucia](https://img.shields.io/badge/Lucia-5C5B5B?style=for-the-badge&logo=lucia&logoColor=white)
-![NextAuth](https://img.shields.io/badge/NextAuth-000000?style=for-the-badge&logo=next.js&logoColor=white)
-
-### **Cloud & Infrastructure**
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-### **Tools & Testing**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+<p align="center">
+  <sub>Open to backend and full-stack roles across Europe · <a href="mailto:cemdenizdemir@gmail.com">cemdenizdemir@gmail.com</a></sub>
+</p>
