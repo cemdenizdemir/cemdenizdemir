@@ -29,6 +29,7 @@ Currently a Software Engineer at **N-Creative**, where I own order management, d
 - Cut API response times by restructuring **Prisma queries** and tuning **PostgreSQL indexes**, eliminating recurring N+1 patterns.
 - Rebuilt asset delivery on **Cloudflare R2** with automatic WebP conversion and a 1-year edge cache with authorized, URL-precise purge — serving a multilingual site to visitors in 50+ countries.
 - Built **Playwright** end-to-end coverage for auth flows and API security paths: sessions, authorization boundaries, rate-limit behavior.
+- Traced two production failures in **third-party integrations** to root cause — form submissions blocked only in production by the provider's **Cloudflare bot protection**, and site analytics reporting to another agency's **Google Analytics** property after access was lost — and coordinated the fixes with the owning teams.
 
 <div align="center">
 
