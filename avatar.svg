@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="268" height="320" viewBox="0 0 268 320" role="img" aria-labelledby="title">
+  <title id="title">Illustrated avatar of Cem Deniz Demir</title>
+  <style>
+    /* ── Edit these variables to make the avatar look like you ── */
+    svg {
+      --skin: #e9b993;
+      --skin-shade: #cf9a74;
+      --hair: #2b1e18;
+      --shirt: #2f5bd3;
+      --shirt-shade: #2449ab;
+      --accent: #8fb6ff;
+      --glasses: none; /* set to inline to show glasses */
+      --beard: none;   /* set to inline to show a beard */
+    }
+
+    .skin       { fill: var(--skin); }
+    .skin-shade { fill: var(--skin-shade); }
+    .hair       { fill: var(--hair); }
+    .brow       { fill: none; stroke: var(--hair); stroke-width: 3; stroke-linecap: round; }
+    .nose       { fill: none; stroke: var(--skin-shade); stroke-width: 2.2; stroke-linecap: round; }
+    .shirt      { fill: var(--shirt); }
+    .collar     { fill: none; stroke: var(--shirt-shade); stroke-width: 3; stroke-linecap: round; }
+    .glasses    { display: var(--glasses); fill: none; stroke: #15171c; stroke-width: 2.4; stroke-linecap: round; }
+    .beard      { display: var(--beard); fill: var(--hair); opacity: .32; }
+    .chip       { fill: #22305a; stroke: #34487e; stroke-width: 1.5; }
+    .icon       { fill: none; stroke: var(--accent); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .icon-fill  { fill: var(--accent); }
+
+    /* ── Motion: floating skill badges + an occasional blink ── */
+    .badge { animation: float 4.8s ease-in-out infinite; }
+    .d1 { animation-delay: -1.2s; }
+    .d2 { animation-delay: -2.4s; }
+    .d3 { animation-delay: -3.6s; }
+    .eye { transform-box: fill-box; transform-origin: center; animation: blink 6s infinite; }
+
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes blink { 0%, 94%, 100% { transform: scaleY(1); } 97% { transform: scaleY(.1); } }
+    @media (prefers-reduced-motion: reduce) { .badge, .eye { animation: none; } }
+  </style>
+
+  <!-- Card (x 0–240). The 28px strip on the right is an intentional gutter
+       so README text does not touch the card when it floats left. -->
+  <rect width="240" height="320" rx="28" fill="#172036"/>
+  <circle cx="120" cy="164" r="98" fill="#1d2945"/>
+  <g fill="#2c3c69">
+    <circle cx="26" cy="132" r="2"/>
+    <circle cx="214" cy="134" r="2"/>
+    <circle cx="120" cy="30" r="2"/>
+    <circle cx="84" cy="44" r="1.5"/>
+    <circle cx="158" cy="42" r="1.5"/>
+  </g>
+
+  <!-- Body -->
+  <rect class="skin-shade" x="106" y="188" width="28" height="56" rx="10"/>
+  <path class="shirt" d="M30 320 C30 262 66 230 120 230 C174 230 210 262 210 320 Z"/>
+  <path class="collar" d="M98 234 Q120 248 142 234"/>
+
+  <!-- Head -->
+  <ellipse class="skin" cx="77" cy="158" rx="8" ry="12"/>
+  <ellipse class="skin" cx="163" cy="158" rx="8" ry="12"/>
+  <ellipse class="skin-shade" cx="77" cy="158" rx="3.5" ry="6"/>
+  <ellipse class="skin-shade" cx="163" cy="158" rx="3.5" ry="6"/>
+  <ellipse class="skin" cx="120" cy="152" rx="44" ry="50"/>
+  <path class="beard" d="M78 160 C80 192 100 206 120 206 C140 206 160 192 162 160 C156 184 140 196 120 196 C100 196 84 184 78 160 Z"/>
+  <path class="hair" d="M74 156 C68 116 88 90 122 90 C154 90 172 112 166 156 C162 140 158 130 150 124 C136 128 112 128 96 120 C88 128 80 140 74 156 Z"/>
+  <path class="brow" d="M95 141 Q104 136 113 140"/>
+  <path class="brow" d="M127 140 Q136 136 145 141"/>
+  <g class="eye">
+    <ellipse cx="104" cy="154" rx="4.2" ry="5.2" fill="#15171c"/>
+    <circle cx="105.6" cy="152.2" r="1.3" fill="#ffffff"/>
+  </g>
+  <g class="eye">
+    <ellipse cx="136" cy="154" rx="4.2" ry="5.2" fill="#15171c"/>
+    <circle cx="137.6" cy="152.2" r="1.3" fill="#ffffff"/>
+  </g>
+  <g class="glasses">
+    <rect x="91" y="145" width="26" height="19" rx="7"/>
+    <rect x="123" y="145" width="26" height="19" rx="7"/>
+    <path d="M117 153 Q120 150.5 123 153 M91 151 L79 149 M149 151 L161 149"/>
+  </g>
+  <path class="nose" d="M120 159 Q115 170 120.5 172"/>
+  <circle cx="97" cy="172" r="6" fill="#f08a7a" opacity=".22"/>
+  <circle cx="143" cy="172" r="6" fill="#f08a7a" opacity=".22"/>
+  <path d="M109 181 Q120 190 131 181" fill="none" stroke="#8c4a3c" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Laptop with a shield: security -->
+  <rect x="56" y="258" width="128" height="62" rx="10" fill="#dbe2ee"/>
+  <rect x="56" y="258" width="128" height="5" rx="2.5" fill="#eef2f8"/>
+  <path d="M120 275 L134 280.5 V290.5 C134 299.5 128 305.5 120 308 C112 305.5 106 299.5 106 290.5 V280.5 Z" fill="#2a4fb8"/>
+  <path d="M113.5 291.5 L118 296 L126.5 286.5" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Badge: frontend -->
+  <g class="badge">
+    <circle class="chip" cx="44" cy="74" r="18"/>
+    <path class="icon" d="M37 68 L31 74 L37 80 M51 68 L57 74 L51 80 M46.5 66 L41.5 82"/>
+  </g>
+  <!-- Badge: performance -->
+  <g class="badge d1">
+    <circle class="chip" cx="196" cy="74" r="18"/>
+    <path class="icon-fill" d="M198.5 62 L187.5 77 H195.5 L193 86 L204.5 71 H196.5 Z"/>
+  </g>
+  <!-- Badge: backend -->
+  <g class="badge d2">
+    <circle class="chip" cx="38" cy="204" r="18"/>
+    <ellipse class="icon" cx="38" cy="196" rx="9" ry="3.5"/>
+    <path class="icon" d="M29 196 V211 C29 213.2 33 215 38 215 C43 215 47 213.2 47 211 V196 M29 203.5 C29 205.7 33 207.5 38 207.5 C43 207.5 47 205.7 47 203.5"/>
+  </g>
+  <!-- Badge: design -->
+  <g class="badge d3">
+    <circle class="chip" cx="202" cy="204" r="18"/>
+    <g transform="translate(191.2 193.2) scale(.9)">
+      <path class="icon" d="M12 19 L19 12 L22 15 L15 22 Z M18 13 L16.5 5.5 L2 2 L5.5 16.5 L13 18 Z M2 2 L9.6 9.6"/>
+      <circle class="icon" cx="11" cy="11" r="2"/>
+    </g>
+  </g>
+</svg>
