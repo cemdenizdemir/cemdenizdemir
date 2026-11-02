@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="40" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true">
+  <style>
+    .back  { fill: #2b6f8f; opacity: .28; animation: drift 14s linear infinite; }
+    .front { fill: #1f5677; opacity: .55; animation: drift 9s linear infinite reverse; }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-200px); } }
+    @media (prefers-reduced-motion: reduce) { .back, .front { animation: none; } }
+  </style>
+  <path class="back"  d="M0 18 Q50 6 100 18 T200 18 T300 18 T400 18 T500 18 T600 18 T700 18 T800 18 T900 18 T1000 18 T1100 18 T1200 18 T1300 18 T1400 18 V40 H0 Z"/>
+  <path class="front" d="M0 26 Q50 16 100 26 T200 26 T300 26 T400 26 T500 26 T600 26 T700 26 T800 26 T900 26 T1000 26 T1100 26 T1200 26 T1300 26 T1400 26 V40 H0 Z"/>
+</svg>
