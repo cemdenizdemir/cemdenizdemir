@@ -1,4 +1,4 @@
-<img align="left" width="32%" src="assests/avatar.jpg" alt="Illustrated avatar of Cem Deniz Demir">
+<img align="left" width="28%" style="border-radius:100%; border: 2px solid black; margin-right:10px" src="assests/avatar.jpg" alt="Illustrated avatar of Cem Deniz Demir">
 
 # Cem Deniz Demir
 
